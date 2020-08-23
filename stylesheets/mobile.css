@@ -1,0 +1,201 @@
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait)  {
+    /*DIVS*/
+    #backgroundVideo {
+        /*WIDTH/HEIGHT*/
+        width: 100%;
+    }
+
+    #leftSide{
+        /*WIDTH/HEIGHT*/
+        width: 100%;
+
+        /*POSITIONING*/
+        display: flex;
+        float: none;
+        z-index: 2;
+        position: fixed;
+        left: 100%;
+
+        /*BACKGROUND*/
+        background-image: none;
+        background: rgba(0,0,0,.75);
+    }
+
+    #mainPic{
+        /*WIDTH/HEIGHT*/
+        width: auto;
+        height: 45vh;
+
+        /*POSITIONING*/
+        margin-top: 1%;
+    }
+
+    #menu {
+        /*WIDTH/HEIGHT*/
+        width: 15%;
+        height: 10vh;
+
+        /*POSITIONING*/
+        display: block;
+        margin-left: 83.5%;
+        height: 10vh;
+        position: fixed;
+        z-index: 2;
+    }
+
+    #rightSide {
+        /*WIDTH/HEIGHT*/
+        width: 100%;
+
+        /*POSITIONING*/
+        margin-left: 0%;
+    }
+
+    /* CLASSES*/
+    .aboutMeClassIMG{
+        /*WIDTH/HEIGHT*/
+        width: 27.5%;
+        height: auto;
+    }    
+    .git{
+        /*WIDTH/HEIGHT*/
+        width: 50px;
+        height: 50px;
+    }
+    .navButtons{
+        /*FONT*/
+        font-size: 5vw;
+    }
+    .project{
+        /*WIDTH/HEIGHT*/
+        width: 24.5%;
+
+        /*FONT*/
+        font-size: 3vw;
+        text-align: center;
+    }
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1368px) 
+  and (orientation: landscape)  {
+    /*DIVS*/
+
+    #leftSide{
+        /*POSITIONING*/
+        left: 0%;
+    }
+
+    #mainPic{
+        /*WIDTH/HEIGHT*/
+        height: 30vh;
+        width: auto;
+
+        /*POSITIONING*/
+        margin-top: 5%;
+    }
+
+    /*CLASSES*/
+    .aboutMeClassIMG{
+        /*WIDTH/HEIGHT*/
+        width: 20%;
+        height: auto;
+    }
+
+    .navButtons{
+        /*FONT*/
+        font-size: 3vw;
+    }
+}
+/* Portrait */
+@media only screen 
+  and (max-device-width: 767px) 
+  and (orientation: portrait) { 
+    #backgroundVideo{
+        /*WIDTH/HEIGHT*/
+        width: 100%;
+    }
+
+    #leftSide{
+        /*WIDTH/HEIGHT*/
+        width: 100%;
+
+        /*POSITIONING*/
+        float: none;
+        z-index: 2;
+        display: flex;
+        position: fixed;
+        left: 100%;
+        
+        /*BACKGROUND*/
+        background: rgba(0,0,0,.75);
+        background-image: none;
+    }
+
+    #mainPic{
+        /*WIDTH/HEIGHT*/
+        width: auto;
+        height: 30vh;
+
+        /*POSITIONING*/
+        margin-top: 5%;
+    }
+
+    #menu{
+        /*POSITIONING*/
+        display: block;
+        position: fixed;
+        margin-left: 80%;
+        z-index: 2;
+    }
+    #rightSide{
+        /*WIDTH/HEIGHT*/
+        width: 100%;
+
+        /*POSITIONING*/
+        margin-left: 0%;
+    }
+
+    /* CLASSES*/
+    .aboutMeClassIMG{
+        /*WIDTH/HEIGHT*/
+        width: 27.5%;
+        height: auto;
+    }  
+
+    .git{
+        /*WIDTH/HEIGHT*/
+        width: 30px;
+        height: 30px;
+    }
+
+    .navButtons{
+        /*FONT*/
+        font-size: 5vw;
+    }
+    
+    .project{
+        /*WIDTH/HEIGHT*/
+        width: 24%;
+
+        /*FONT*/
+        font-size: 3vw;
+        text-align: center;
+    }
+}
+/* Landscape */
+@media only screen 
+  and (max-device-width: 767px) 
+  and (orientation: landscape) { 
+    #mainPic{
+        /*WIDTH/HEIGHT*/
+        height: 30vh;
+        width: auto;
+
+        /*POSITIONING*/
+        margin-top: 5%;
+    }
+}
