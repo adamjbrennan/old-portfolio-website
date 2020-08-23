@@ -167,7 +167,7 @@
 
     /*BACKGROUND*/
     background-image: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.654499299719888) 40%, rgba(0,0,0,0.6516981792717087) 60%, rgba(255,255,255,0) 100%),
-    url("/images/student.JPG");
+    url("/images/student.jpg");
     background-size: cover;
     background-position: center;
 
