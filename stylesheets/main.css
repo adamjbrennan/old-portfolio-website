@@ -302,6 +302,7 @@
 a{
     /*FONT*/
     text-decoration: none;
+    color: red;
 }
 body {
     /*WIDTH*/
