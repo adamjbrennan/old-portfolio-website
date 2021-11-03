@@ -65,10 +65,16 @@ $(document).ready(() => {
             window.scrollTo(0, window.innerHeight); 
         });
 
+        /*Browser scrolls to the top of the experience section upon clicking the experience button.*/
+
+        $("#experienceButton").click(()=>{
+            window.scrollTo(0, window.innerHeight*2); 
+       });
+
         /*Browser scrolls to the top of the project section upon clicking the project button.*/
 
         $("#projectsButton").click(()=>{
-             window.scrollTo(0, window.innerHeight*2); 
+             window.scrollTo(0, window.innerHeight*3); 
         });
 
         /*About me modal buttons turn white upon hover.*/
